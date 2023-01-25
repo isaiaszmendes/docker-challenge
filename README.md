@@ -15,7 +15,6 @@ Clone this project and edit it
 ### build
 ```
 docker build -t <yourPreferName> .
-
 ```
 
 ### Running the image
