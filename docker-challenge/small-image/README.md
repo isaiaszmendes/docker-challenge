@@ -12,7 +12,7 @@ docker run isaiaszmendes/fullcycle
 ## Try yourself
 Clone this project and edit it
 
-### build
+### Build
 ```
 docker build -t <yourPreferName> .
 ```
