@@ -1,4 +1,4 @@
 ## Docker Challenges
-[Small image](small-image/README.md)
+[Small image to execute golang](small-image/README.md)
 
-[NGINX Reverse Proxy with node and MYSQL](nginx-node)
+[NGINX - Reverse Proxy with node and MYSQL](nginx-node)
