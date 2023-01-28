@@ -13,10 +13,10 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 # O ./ entra no WORKDIR
 COPY . .
 
-RUN npm i && npm i mysql@2.18.1 --save-dev
-
-# CMD [ "npm",  "start" ]
+RUN npm install mysql@2.18.1 --save-dev
 
 EXPOSE 3000
+
+CMD [ "npm",  "start" ]
 
 # -- otimization --
