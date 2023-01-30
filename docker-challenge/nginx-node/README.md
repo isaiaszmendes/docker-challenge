@@ -1,3 +1,7 @@
-[] Verificar private ip do nodejs e colocar no nginx.conf
-[] Criar banco de dados, tabela pessoas
+# Challenge: use docker compose to:
+create a reverse proxy using nginx, nodejs and mysql
 
+### To test clone this repository and run the command:
+```
+docker compose up -d
+```

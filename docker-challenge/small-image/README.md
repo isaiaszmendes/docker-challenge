@@ -1,4 +1,5 @@
-# Fullcycle Challenge
+# Challenge: use Dockerfile to:
+create a image with size less 2MB
 
 image size: 1.36MB
 
@@ -6,18 +7,13 @@ image size: 1.36MB
 
 ### To test run the command:
 ```
-docker run isaiaszmendes/fullcycle
+docker compose up -d
 ```
 
-## Try yourself
-Clone this project and edit it
-
-### Build
+### If you are using an old version docker compose run
 ```
-docker build -t <yourPreferName> .
+docker-compose up -d
 ```
 
-### Running the image
-``` 
-docker run <yourPreferName>
-``` 
+### Now it's time to test
+[See my result here](http:localhost:8080)
