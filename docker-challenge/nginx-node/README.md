@@ -1,5 +1,5 @@
 # Challenge: use docker compose to:
-create a reverse proxy using nginx, nodejs and mysql
+Create a reverse proxy using nginx, nodejs and mysql
 
 ### To test clone this repository and run the commands:
 
@@ -15,4 +15,4 @@ docker-compose up -d
 ```
 
 ### Now it's time to test
-[See my result here](http:localhost:8080)
+When your containers are up, access your http://localhost:8080
