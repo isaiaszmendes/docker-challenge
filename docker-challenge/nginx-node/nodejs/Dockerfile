@@ -14,9 +14,3 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 COPY . .
 
 RUN npm install mysql@2.18.1 --save-dev
-
-EXPOSE 3000
-
-CMD [ "npm",  "start" ]
-
-# -- otimization --
