@@ -7,4 +7,4 @@ const config = {
   database: 'nodedb'
 }
 
-export const connection = mysql.createConnection(config);
+export const connectionDb = () => mysql.createConnection(config);
