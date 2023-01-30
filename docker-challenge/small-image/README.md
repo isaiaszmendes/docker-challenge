@@ -1,5 +1,5 @@
 # Challenge: use Dockerfile to:
-create a image with size less 2MB
+Create a image with size less 2MB
 
 image size: 1.36MB
 
@@ -7,13 +7,18 @@ image size: 1.36MB
 
 ### To test run the command:
 ```
-docker compose up -d
+docker run isaiaszmendes/fullcycle
 ```
 
-### If you are using an old version docker compose run
+## Try yourself
+Clone this project and edit it
+
+### Build
 ```
-docker-compose up -d
+docker build -t <yourPreferName> .
 ```
 
-### Now it's time to test
-[See my result here](http:localhost:8080)
+### Running the image
+``` 
+docker run <yourPreferName>
+``` 
